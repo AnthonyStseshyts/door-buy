@@ -360,6 +360,26 @@ section {
         position: absolute; }
       .component .content p.button__next:hover {
         opacity: 0.8; }
+    .component .content p.button__prev {
+      border: 1px solid #188b30;
+      color: #188b30;
+      padding: 11px 0 0 26px;
+      display: inline-block;
+      margin: 0px 89px;
+      text-align: center;
+      position: relative; }
+      .component .content p.button__prev:before {
+        content: "";
+        background: url(../images/icons/arrows_prev.png) no-repeat;
+        width: 20px;
+        height: 24px;
+        display: inline-block;
+        margin: 6px 0 0 -5px;
+        position: absolute;
+        transform: none;
+        left: 40px; }
+      .component .content p.button__prev:hover {
+        opacity: 0.8; }
     .component .content .step__1 fieldset {
       min-height: 365px;
       margin-bottom: 37px;
@@ -386,27 +406,49 @@ section {
       .component .content .step__1 label[for=help1] {
         background: url(../images/icons/i_help1.png) no-repeat;
         background-position: center 10px; }
-    .component .content .step__1 .step.button__prev {
-      border: 1px solid #188b30;
-      color: #188b30;
-      padding: 11px 0 0 26px;
-      display: inline-block;
-      margin: 0px 89px;
-      text-align: center;
-      position: relative; }
-      .component .content .step__1 .step.button__prev:before {
-        content: "";
-        background: url(../images/icons/arrows_prev.png) no-repeat;
-        width: 20px;
-        height: 24px;
-        display: inline-block;
-        margin: 6px 0 0 -5px;
-        position: absolute;
-        transform: none;
-        left: 40px; }
-      .component .content .step__1 .step.button__prev:hover {
-        opacity: 0.8; }
     .component .content .step__1 .button__next {
+      margin: 0;
+      border-radius: 0; }
+    .component .content .step__2 fieldset {
+      width: 263px;
+      height: 274px;
+      text-align: center;
+      margin: 0 29px 33px 0; }
+      .component .content .step__2 fieldset:nth-child(4) {
+        margin-right: 0; }
+      .component .content .step__2 fieldset:nth-child(8) {
+        margin-right: 0; }
+      .component .content .step__2 fieldset:hover {
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.12); }
+      .component .content .step__2 fieldset input {
+        margin: 210px 0 0; }
+      .component .content .step__2 fieldset label {
+        padding: 246px 0px 0px; }
+        .component .content .step__2 fieldset label[for=layer23] {
+          background: url(../images/door/Layer_23.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=layer24] {
+          background: url(../images/door/Layer_24.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=layer25] {
+          background: url(../images/door/Layer_25.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=layer26] {
+          background: url(../images/door/Layer_26.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=layer27] {
+          background: url(../images/door/Layer_27.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=layer28] {
+          background: url(../images/door/Layer_28.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=layer29] {
+          background: url(../images/door/Layer_29.png) no-repeat;
+          background-position: center 10px; }
+        .component .content .step__2 fieldset label[for=question] {
+          background: url(../images/icons/question_mark.png) no-repeat;
+          background-position: center 33px; }
+    .component .content .step__2 .button__next {
       margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

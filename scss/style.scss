@@ -518,6 +518,34 @@ section {
             opacity: 0.8;
           }
         }
+
+        &.button__prev {
+          border: 1px solid $green;
+          color: $green;
+          padding: 11px 0 0 26px;
+          display: inline-block;
+          // height: 30px;
+          margin: 0px 89px;
+          // width: 200px;
+          text-align: center;
+          position: relative;
+  
+          &:before {
+            content: "";
+            background: url(../images/icons/arrows_prev.png) no-repeat;
+            width: 20px;
+            height: 24px;
+            display: inline-block;
+            margin: 6px 0 0 -5px;
+            position: absolute;
+            transform: none;
+            left: 40px;
+          }
+  
+          &:hover {
+            opacity: 0.8;
+          }
+        }
     }
 
     .step__1 {
@@ -566,39 +594,84 @@ section {
         }
       }
 
-      .step.button__prev {
-        border: 1px solid $green;
-        color: $green;
-        padding: 11px 0 0 26px;
-        display: inline-block;
-        // height: 30px;
-        margin: 0px 89px;
-        // width: 200px;
-        text-align: center;
-        position: relative;
-
-        &:before {
-          content: "";
-          background: url(../images/icons/arrows_prev.png) no-repeat;
-          width: 20px;
-          height: 24px;
-          display: inline-block;
-          margin: 6px 0 0 -5px;
-          position: absolute;
-          transform: none;
-          left: 40px;
-        }
-
-        &:hover {
-          opacity: 0.8;
-        }
-      }
       .button__next {
         margin: 0;
+        border-radius: 0;
       }
     }
 
     .step__2 {
+
+      fieldset {
+        width: 263px;
+        height: 274px;
+        text-align: center;
+        margin: 0 29px 33px 0;
+
+        &:nth-child(4) {
+          margin-right: 0;
+        }
+
+        &:nth-child(8) {
+          margin-right: 0;
+        }
+
+        &:hover {
+          box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
+        }
+
+        input {
+          margin: 210px 0 0;
+        }
+  
+        label {
+          padding: 246px 0px 0px;
+
+          &[for=layer23] {
+            background: url(../images/door/Layer_23.png) no-repeat;
+            background-position: center 10px;
+          }
+  
+          &[for=layer24] {
+            background: url(../images/door/Layer_24.png) no-repeat; 
+            background-position: center 10px;
+          }
+  
+          &[for=layer25] {
+            background: url(../images/door/Layer_25.png) no-repeat; 
+            background-position: center 10px;
+          }
+  
+          &[for=layer26] {
+            background: url(../images/door/Layer_26.png) no-repeat; 
+            background-position: center 10px;
+          }
+  
+          &[for=layer27] {
+            background: url(../images/door/Layer_27.png) no-repeat;
+            background-position: center 10px;
+          }
+
+          &[for=layer28] {
+            background: url(../images/door/Layer_28.png) no-repeat;
+            background-position: center 10px;
+          }
+          &[for=layer29] {
+            background: url(../images/door/Layer_29.png) no-repeat;
+            background-position: center 10px;
+          }
+          &[for=question] {
+            background: url(../images/icons/question_mark.png) no-repeat;
+            background-position: center 33px;
+          }
+
+        }
+      }
+
+
+      .button__next {
+        margin: 0;
+      }
 
     }
 
