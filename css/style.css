@@ -272,13 +272,13 @@ section {
       .component .content form.step_2 {
         padding: 55px 0 39px; }
       .component .content form.step_3 {
-        padding: 51px 0 38px; }
+        padding: 51px 0 0;
+        height: 542px; }
       .component .content form.step_4 {
-        padding: 41px 0 37px; }
+        padding: 45px 0 37px; }
     .component .content fieldset {
       max-width: 360px;
       width: 100%;
-      min-height: 231px;
       border: 1px solid rgba(186, 186, 186, 0.67);
       position: relative;
       margin-bottom: 32px; }
@@ -286,7 +286,9 @@ section {
         margin: 0 29px 32px 29px; }
       .component .content fieldset:nth-child(5) {
         margin: 0 49px 32px 29px; }
-      .component .content fieldset:hover {
+    .component .content .step__0 fieldset {
+      min-height: 231px; }
+      .component .content .step__0 fieldset:hover {
         box-shadow: 0 0 32px rgba(0, 0, 0, 0.12); }
     .component .content input {
       margin: 110px 0 0 200px; }
@@ -489,5 +491,71 @@ section {
       .component .content .step_3 .button__prev {
         margin: 0px 0 0 0;
         bottom: 0; }
+    .component .content .step__4 {
+      height: 689px; }
+      .component .content .step__4 .contact {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: flex-end;
+        background: url(../images/icons/i_contact.png) 0 10px no-repeat;
+        min-height: 250px;
+        align-items: center;
+        margin: 41px 0 0 19px; }
+      .component .content .step__4 .consult {
+        width: 688px;
+        height: 95px;
+        color: #383838;
+        font-family: 'Roboto-Light';
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 38px;
+        list-style: none;
+        margin: 0px -4px 34px 0px;
+        position: relative; }
+        .component .content .step__4 .consult li {
+          display: list-item;
+          text-align: -webkit-match-parent; }
+          .component .content .step__4 .consult li:before {
+            content: "";
+            background: url(../images/icons/double-tick.png) 0px no-repeat;
+            width: 40px;
+            height: 24px;
+            display: inline-block;
+            margin-top: 10px;
+            left: -44px;
+            position: absolute; }
+      .component .content .step__4 .step_4 fieldset {
+        max-width: 250px;
+        height: 70px;
+        border: 0;
+        color: #383838;
+        font-family: 'Roboto-Light'; }
+        .component .content .step__4 .step_4 fieldset input {
+          width: 303px;
+          height: 47px;
+          margin: 27px 0 0 0;
+          padding: 10px;
+          border: 1px solid #999;
+          font-size: 14px; }
+        .component .content .step__4 .step_4 fieldset label {
+          font-size: 20px;
+          cursor: default; }
+      .component .content .step__4 .step_4 button.step_submit {
+        background: #188b30;
+        width: 536px;
+        height: 58px;
+        padding: 5px;
+        height: 60px;
+        color: #fff;
+        font-size: 25px;
+        margin: 15px 0 0;
+        border-radius: 2px;
+        color: #ffffff;
+        font-family: 'Roboto-Light';
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 24px;
+        cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

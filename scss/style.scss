@@ -2,6 +2,7 @@
 
 $green: #188b30;
 $orange: #ef9200;
+$white: #fff;
 
 * {
   margin: 0px;
@@ -10,7 +11,7 @@ $orange: #ef9200;
 }
 
 body {
-  background: #fff;
+  background: $white;
   font-family: 'Roboto-Regular';
   font-size: 16px;
   line-height: 1.47; 
@@ -385,18 +386,19 @@ section {
       }
 
       &.step_3 {
-        padding: 51px 0 38px;
+        // padding: 51px 0 38px;
+        padding: 51px 0 0;
+        height: 542px;
       }
 
       &.step_4 {
-        padding: 41px 0 37px;
+        padding: 45px 0 37px;
       }
     }
 
     fieldset {
       max-width: 360px;
       width: 100%;
-      min-height: 231px;
       border: 1px solid rgba(186, 186, 186, 0.67);
       position: relative;
       margin-bottom: 32px;
@@ -413,8 +415,14 @@ section {
         margin: 0 49px 32px 29px;
       }
 
-      &:hover {
-        box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
+    }
+
+    .step__0 {
+      fieldset {
+        min-height: 231px;
+        &:hover {
+          box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
+        }
       }
     }
 
@@ -757,6 +765,100 @@ section {
             bottom: 0;
           }
           
+      }
+
+      .step__4 {
+        height: 689px;
+
+
+        .contact {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0;
+          justify-content: flex-end;
+          background: url(../images/icons/i_contact.png) 0 10px  no-repeat;
+          min-height: 250px;
+          align-items: center;
+          margin: 41px 0 0 19px;
+        }
+
+        .consult {
+          width: 688px;
+          height: 95px;
+          color: #383838;
+          font-family: 'Roboto-Light';
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 38px;
+          list-style: none;
+          margin: 0px -4px 34px 0px;
+         position: relative;
+
+          li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+  
+            &:before {
+              content: "";
+              background: url(../images/icons/double-tick.png) 0px no-repeat;
+              width: 40px;
+              height: 24px;
+              display: inline-block;
+              margin-top: 10px;
+              // left: 444px;
+              left: -44px;
+              position: absolute;
+            }
+          }
+        }
+
+        .step_4 {
+
+          fieldset {
+              max-width: 250px;
+              height: 70px;
+              // width: 100%;
+              border: 0;
+              color: #383838;
+              font-family: 'Roboto-Light';
+
+              input {
+                width: 303px;
+                height: 47px;
+                margin: 27px 0 0 0;
+                padding: 10px;
+                border: 1px solid #999;
+                font-size: 14px;
+              }
+
+              label {
+                font-size: 20px;
+                cursor: default;
+              }
+          }
+
+          button.step_submit {
+            background: $green;
+            width: 536px;
+            height: 58px;
+            padding: 5px;
+            height: 60px;
+            color: $white;
+            font-size: 25px;
+            margin: 15px 0 0;
+            border-radius: 2px;
+            color: #ffffff;
+            font-family: 'Roboto-Light';
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 24px;
+            cursor: pointer;
+          }
+          
+           
+
+        }
+
       }
   }
 }
