@@ -238,15 +238,14 @@ section {
     margin-top: 27px; }
     .component .content .step__box {
       width: 100%;
-      max-height: 662px;
+      min-height: 662px;
       background-color: #ffffff;
       padding: 37px 0 47px;
       border: 2px solid #d0d0d0; }
       .component .content .step__box .show__xs {
         display: block; }
       .component .content .step__box .hide__xs {
-        display: block;
-        border: 2px solid #d0d0d0; }
+        display: block; }
     .component .content .orange {
       width: 100%;
       height: 30px;
@@ -264,7 +263,8 @@ section {
     .component .content form {
       display: flex;
       flex-flow: row wrap;
-      justify-content: center; }
+      justify-content: center;
+      padding: 15px 0; }
       .component .content form.step_0 {
         padding: 54px 0 47px; }
       .component .content form.step_1 {
@@ -343,12 +343,11 @@ section {
       text-transform: none;
       cursor: pointer; }
     .component .content p.button__next {
-      margin: 88px 5px;
+      padding: 12px 40px;
       color: #fff;
       border-radius: 4px;
       font-weight: 700;
-      background: #188b30;
-      padding: 12px 40px; }
+      background: #188b30; }
       .component .content p.button__next:after {
         content: "";
         background: url(../images/icons/arrows_next.png) no-repeat;
@@ -365,7 +364,6 @@ section {
       color: #188b30;
       padding: 11px 0 0 26px;
       display: inline-block;
-      margin: 0px 89px;
       text-align: center;
       position: relative; }
       .component .content p.button__prev:before {
@@ -407,7 +405,8 @@ section {
         background: url(../images/icons/i_help1.png) no-repeat;
         background-position: center 10px; }
     .component .content .step__1 .button__next {
-      margin: 0;
+      padding: 12px 40px;
+      margin: 0 45px 0 0;
       border-radius: 0; }
     .component .content .step__2 fieldset {
       width: 263px;
@@ -450,5 +449,45 @@ section {
           background-position: center 33px; }
     .component .content .step__2 .button__next {
       margin: 0; }
+    .component .content .step_3 {
+      min-height: 427px;
+      background: url(../images/icons/cashpig.png) 28% 51px no-repeat; }
+      .component .content .step_3 fieldset {
+        border: 0;
+        text-align: right;
+        max-width: 60%;
+        padding: 0 265px 0 0;
+        min-height: 1px;
+        margin-bottom: 0px; }
+        .component .content .step_3 fieldset:nth-child(2) {
+          margin: 0; }
+        .component .content .step_3 fieldset:nth-child(5) {
+          margin: 0; }
+        .component .content .step_3 fieldset:nth-child(6) {
+          max-width: 100%;
+          margin: 0 0 0 0;
+          right: 0; }
+          .component .content .step_3 fieldset:nth-child(6) input {
+            margin: 0 233px 0 0; }
+          .component .content .step_3 fieldset:nth-child(6) label {
+            padding: 0px 234px  0px 0px; }
+        .component .content .step_3 fieldset:hover {
+          box-shadow: none; }
+        .component .content .step_3 fieldset input {
+          margin: 0; }
+        .component .content .step_3 fieldset label {
+          position: absolute;
+          right: 0;
+          padding: 0px 0px 0px 0px;
+          cursor: default; }
+          .component .content .step_3 fieldset label:nth-child(6) {
+            padding: 0 0 0 0; }
+      .component .content .step_3 .button__next {
+        margin: 0px 0 0 0;
+        bottom: 0;
+        border-radius: 0%; }
+      .component .content .step_3 .button__prev {
+        margin: 0px 0 0 0;
+        bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

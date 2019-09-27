@@ -332,7 +332,7 @@ section {
       // display: flex;
       // flex-flow: column nowrap;
       width: 100%;
-      max-height: 662px;
+      min-height: 662px;
       background-color: #ffffff;
       padding: 37px 0 47px;
       border: 2px solid #d0d0d0;
@@ -343,7 +343,7 @@ section {
 
       .hide__xs {
         display: block; //then turn the property into none
-        border: 2px solid #d0d0d0;
+        // border: 2px solid #d0d0d0;
       }
     }
 
@@ -369,6 +369,8 @@ section {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+      padding: 15px 0;
+
 
       &.step_0 {
         padding: 54px 0 47px;
@@ -395,11 +397,11 @@ section {
       max-width: 360px;
       width: 100%;
       min-height: 231px;
-      // box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
-      // border: 1px solid rgba(128, 128, 128, 0);
       border: 1px solid rgba(186, 186, 186, 0.67);
       position: relative;
       margin-bottom: 32px;
+      // box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
+      // border: 1px solid rgba(128, 128, 128, 0);
       // text-align: right;
       // margin: 0 28px 0 0;
 
@@ -493,13 +495,13 @@ section {
         }
 
         &.button__next {
-          margin: 88px 5px;
+          padding: 12px 40px;
           color: #fff;
           border-radius: 4px;
           font-weight: 700;
           background: $green;
           // font-size: 15px;
-          padding: 12px 40px;
+          
 
           &:after {
             // width: 19px;
@@ -525,7 +527,6 @@ section {
           padding: 11px 0 0 26px;
           display: inline-block;
           // height: 30px;
-          margin: 0px 89px;
           // width: 200px;
           text-align: center;
           position: relative;
@@ -595,7 +596,9 @@ section {
       }
 
       .button__next {
-        margin: 0;
+        // margin: 88px 5px;
+        padding: 12px 40px;
+        margin: 0 45px 0 0;
         border-radius: 0;
       }
     }
@@ -667,7 +670,7 @@ section {
 
         }
       }
-
+      
 
       .button__next {
         margin: 0;
@@ -675,11 +678,85 @@ section {
 
     }
 
+    .step_3 {
+      
+      min-height: 427px;
+      // background: url(../images/icons/cashpig.png) 25% 10px no-repeat;
+      background: url(../images/icons/cashpig.png) 28% 51px no-repeat;
+
+      
+
+        fieldset{
+          // max-width: 360px;
+          // width: 100%;
+          // min-height: 231px;
+          // border: 1px solid rgba(186, 186, 186, 0.67);
+          // position: relative;
+          // margin-bottom: 32px;
+          border: 0;
+          text-align: right;
+          max-width: 60%;
+          padding: 0 265px 0 0;
+          min-height: 1px;
+          margin-bottom: 0px;
+
+          &:nth-child(2) {
+            margin: 0;
+
+          }
+
+          &:nth-child(5) {
+            margin: 0;
+          }
+
+          &:nth-child(6) {
+            max-width: 100%;
+            margin: 0 0 0 0;
+            right: 0;
+
+            input  {
+              margin: 0 233px 0 0;
+            }
+            
+            label {
+              padding: 0px 234px  0px 0px;
+            }
+            
+          }
+
+          &:hover {
+            box-shadow: none;
+          }
+
+          input {
+            margin: 0;
 
 
+          }
 
+          label {
+          position: absolute;
+          right: 0;
+          padding: 0px 0px 0px 0px;
+          cursor: default;
+
+            &:nth-child(6) {
+              padding: 0 0 0 0;
+            }
+          }          
+        }
+
+          .button__next {
+            margin: 0px 0 0 0;
+            bottom: 0;
+            border-radius: 0%;
+          }
+          .button__prev {
+            // margin: 0px 89px;
+            margin: 0px 0 0 0;
+            bottom: 0;
+          }
+          
+      }
   }
-
-
-
 }
