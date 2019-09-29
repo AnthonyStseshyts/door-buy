@@ -530,7 +530,7 @@ section {
         }
 
         &.button__prev {
-          border: 1px solid $green;
+          border: 2px solid $green;
           color: $green;
           padding: 11px 0 0 26px;
           display: inline-block;
@@ -855,7 +855,20 @@ section {
             cursor: pointer;
           }
           
+          .button__prev {
+            margin: 30px 5px!important;
+
+            text-align: center;
+            position: relative;
+          }
            
+          .long100 {
+            content: "";
+            display: block;
+            width: 100%;
+            max-width: 90%;
+            height: 1px;
+          }
 
         }
 

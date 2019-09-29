@@ -362,7 +362,7 @@ section {
       .component .content p.button__next:hover {
         opacity: 0.8; }
     .component .content p.button__prev {
-      border: 1px solid #188b30;
+      border: 2px solid #188b30;
       color: #188b30;
       padding: 11px 0 0 26px;
       display: inline-block;
@@ -557,5 +557,15 @@ section {
         font-weight: 300;
         line-height: 24px;
         cursor: pointer; }
+      .component .content .step__4 .step_4 .button__prev {
+        margin: 30px 5px !important;
+        text-align: center;
+        position: relative; }
+      .component .content .step__4 .step_4 .long100 {
+        content: "";
+        display: block;
+        width: 100%;
+        max-width: 90%;
+        height: 1px; }
 
 /*# sourceMappingURL=style.css.map */
