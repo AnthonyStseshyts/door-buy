@@ -702,5 +702,35 @@ section {
           left: 112px;
           top: 132px;
           position: absolute; }
+      .component footer .credits .title_2 {
+        color: #ef7600;
+        font-family: 'Roboto-Regular';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 39px;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+        width: 100%;
+        height: 61px; }
+      .component footer .credits .connection p:first-child {
+        width: 100%;
+        font-family: 'Roboto-Regular';
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #188b30;
+        text-transform: none;
+        text-align: center; }
+      .component footer .credits .post_connection {
+        display: block;
+        width: 945px;
+        margin-top: 42px;
+        padding: 0 7px; }
+        .component footer .credits .post_connection .form__row {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          margin-top: 42px; }
 
 /*# sourceMappingURL=style.css.map */
