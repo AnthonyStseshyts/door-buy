@@ -305,24 +305,29 @@
           <div class="connection">
             <p>Заполните данные, и наш специалист свяжется с Вами для консультации по рассрочке</p>
           </div>
-          <form action="#" method="POST" class="post_connection">
-            <div class="form__row">
-              <fieldset>
-                <label for="period"></label>
-                <input id="period" name="range" placeholder="2-4 месяца" type="week">
-              </fieldset>
-              <fieldset>
-                <label for="thename">Введите Ваше имя</label>
-                <input id="thename" name="name" type="text" placeholder="Как Вас зовут?" value="">
-              </fieldset>
-              <fieldset>
-                <label for="thephone">Введите номер телефона</label>
-                <input id="thephone" name="phone" type="tel" placeholder="+375 (__) ___-__-__" value="">
-              </fieldset>
-              <button class="step_submit">
-                Подобрать двери по моим параметрам
-              </button>
-            </div>
+          <form action="#" method="POST" class="form_connection">
+            <fieldset class="form_field">
+              <label for="period">1. Какой срок рассрочки интересует?</label>
+              <div class="form_select">
+                <select name="period">
+                  <option value="24">2 - 4 месяца</option>
+                  <option value="46">4 - 6 месяцев</option>
+                  <option value="68">6 - 8 месяцев</option>
+                  <option value="812">8 - 12 месяцев</option>
+                </select>
+              </div>
+            </fieldset>
+            <fieldset class="form_field">
+              <label for="thename">2. Как Вас зовут?</label>
+              <input id="name" name="name" type="text" placeholder="Ваше имя">
+            </fieldset>
+            <fieldset class="form_field">
+              <label for="thephone">2. Как Вас зовут?</label>
+              <input id="thephone" name="phone" type="tel" placeholder="+375 (__) ___-__-__" value="">
+            </fieldset>
+            <button class="step_submit">
+              Подобрать двери по моим параметрам
+            </button>
           </form>
         </div>
       </section>
