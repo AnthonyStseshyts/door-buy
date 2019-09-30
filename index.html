@@ -243,7 +243,7 @@
               </fieldset>
               <fieldset>
                 <label for="thephone">Введите номер телефона</label>
-                <input id="thephone" name="phone" type="tel" placeholder="+375 (__) ___-__-__" value="">
+                <input id="thephone" name="phone" type="tel" placeholder="+375 (_ _) _ _ _-_ _-_ _" value="">
               </fieldset>
               <button class="step_submit">
                 Подобрать двери по моим параметрам
@@ -319,15 +319,29 @@
             </fieldset>
             <fieldset class="form_field">
               <label for="thename">2. Как Вас зовут?</label>
-              <input id="name" name="name" type="text" placeholder="Ваше имя">
+              <input id="name" name="name" type="text" placeholder="Ваше имя" class="form_input">
             </fieldset>
             <fieldset class="form_field">
-              <label for="thephone">2. Как Вас зовут?</label>
-              <input id="thephone" name="phone" type="tel" placeholder="+375 (__) ___-__-__" value="">
+              <label for="phone">3. Номер телефона для связи
+              </label>
+              <input id="phone" name="phone" type="tel" placeholder="+375 (_ _) _ _ _-_ _-_ _" class="form_input">
             </fieldset>
             <button class="step_submit">
-              Подобрать двери по моим параметрам
+              Получить консультацию по рассрочке
             </button>
+            <div class="phone_block">
+              <div class="phone_text">
+                <p>Или звоните по телефонам</p>
+              </div>
+              <div class="phone_wrapper">
+                <i class="phone_gold"></i>
+                <div class="phone_code">
+                  <span>+375 (29)</span>
+                  <span>+375 (44)</span>
+                </div>
+                <div class="phone_number">755 56 67</div>
+              </div>
+            </div>
           </form>
         </div>
       </section>
