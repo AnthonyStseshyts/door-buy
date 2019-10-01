@@ -36,15 +36,19 @@ p {
   display: inline-block; }
 
 a {
-  display: block;
+  display: inline-block;
   cursor: pointer;
   text-decoration: none;
   color: #188b30; }
+
+img {
+  max-width: 100%; }
 
 i {
   display: inline-block; }
 
 .logo {
+  display: block;
   width: 101px;
   height: 48px; }
 
@@ -73,9 +77,7 @@ button.step_submit {
   width: 100%;
   height: 581px;
   background-image: url(../images/header_bg.png);
-  background-size: cover;
-  background-position: top;
-  z-index: -1; }
+  background-position: top; }
   .header .top__header {
     display: block;
     width: 100%;
@@ -90,18 +92,16 @@ button.step_submit {
     align-items: center;
     justify-content: space-between;
     height: 100%; }
-    .header section .section__left {
+    .header section .top__left {
       display: flex;
       flex-flow: row nowrap;
       padding: 7px 0 5px 0; }
-    .header section .section__right {
+    .header section .top__right {
       width: 185px;
       height: 45px;
       margin: -13px 0 0 0; }
   .header .logo {
-    width: 101px;
-    height: 48px;
-    margin: 0 1.3em 0 0.8em; }
+    margin: 0 20px 0 11px; }
     .header .logo__text {
       width: 215px;
       height: 25px;
@@ -114,32 +114,49 @@ button.step_submit {
   .header .contacts {
     display: flex;
     flex-flow: row wrap;
+    max-width: 171px;
+    height: 45px;
     flex-basis: 100%;
-    font-size: 11px;
+    color: #009900;
+    font-family: 'Roboto-Regular';
+    font-size: 17px;
     font-weight: 400;
-    color: #009900; }
+    margin: 0 0 0 0; }
     .header .contacts .codes {
-      width: 44px;
-      font-family: "Roboto Light";
+      width: 47px;
+      font-family: "Roboto-Light";
+      font-size: 11px;
       margin: 4px 6px 0px 0px; }
     .header .contacts .phone {
       font-size: 26px;
       width: 118px; }
     .header .contacts .schedule {
-      flex-basis: 100%;
+      width: 100%;
       height: 15px;
       color: #000000;
-      font-family: 'Roboto-Regular';
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 24px;
+      font-family: 'Roboto-Light';
+      font-size: 17px;
       text-transform: uppercase;
-      position: relative; }
+      position: relative;
+      text-align: center;
+      margin: -3px -10px; }
       .header .contacts .schedule p {
-        position: absolute; }
+        font-size: 13px; }
+      .header .contacts .schedule mark {
+        display: inline-block;
+        color: #000000;
+        font-family: 'Roboto-Regular';
+        line-height: 21px;
+        background: none;
+        text-transform: lowercase;
+        margin: 0 3px; }
       .header .contacts .schedule span {
+        display: inline-block;
+        width: 11px;
         font-size: 11px;
-        margin: 0 0 0 0; }
+        position: relative;
+        margin: 0 0 0 0;
+        top: -7px; }
   .header .section__center {
     display: flex;
     justify-content: center;
@@ -151,25 +168,23 @@ button.step_submit {
     height: 157px;
     border: 2px solid #f2a62f;
     padding: 13px 0px 12px 12px;
-    margin: 19px 1px 0 0; }
+    margin: 19px 1px 0 0;
+    align-content: center; }
     .header .center__bg {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-basis: 100%;
-      min-height: 128px;
+      width: 686px;
+      height: 128px;
       opacity: 0.88;
-      background: url(../images/white__bg.png);
-      text-align: center; }
+      background: url(../images/white__bg.png) no-repeat; }
     .header .center p {
-      width: 100%;
-      height: 94px;
+      width: 599px;
+      height: 71px;
       color: #000000;
       font-family: 'Roboto-Light';
       font-size: 31px;
       line-height: 49px;
       text-transform: uppercase;
-      text-align: center; }
+      text-align: center;
+      margin: 17px 0px 0 50px; }
   .header .section__bottom {
     display: block;
     width: 100%;
@@ -219,21 +234,23 @@ button.step_submit {
         background-image: url(../images/icons/installment.png);
         margin: 5px 19px 0 57px; }
       .header .section__bottom .nav p {
-        color: #ffffff;
+        color: #fff;
         font-family: 'Roboto-Light';
         font-weight: 300;
         font-size: 21px; }
       .header .section__bottom .nav .__first {
         width: 191px;
         height: 45px;
-        margin: -11px 0 0 0; }
+        margin: -11px 0 0 0;
+        line-height: 1.4; }
       .header .section__bottom .nav .__second {
         width: 183px;
         height: 20px; }
       .header .section__bottom .nav .__last {
-        width: 139px;
+        width: 142px;
         height: 43px;
-        margin: -10px 0 0 0; }
+        margin: -10px 0 0 0;
+        line-height: 1.2; }
 
 .component {
   flex-grow: 1; }
@@ -1042,7 +1059,7 @@ footer {
           line-height: 21px;
           background: none;
           text-transform: lowercase;
-          margin-right: 1px; }
+          margin: 0 3px; }
         footer .btm__footer .contacts_foot .schedule_foot span {
           display: inline-block;
           width: 13px;
