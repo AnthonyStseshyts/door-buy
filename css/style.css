@@ -168,14 +168,15 @@ button.step_submit {
     height: 157px;
     border: 2px solid #f2a62f;
     padding: 13px 0px 12px 12px;
-    margin: 19px 1px 0 0;
+    margin: 18px 3px 0 0;
     align-content: center; }
     .header .center__bg {
       width: 686px;
       height: 128px;
       opacity: 0.88;
-      background: url(../images/white__bg.png) no-repeat; }
-    .header .center p {
+      background: url(../images/white__bg.png) no-repeat;
+      padding-top: 14px; }
+    .header .center h1 {
       width: 599px;
       height: 71px;
       color: #000000;
@@ -184,7 +185,7 @@ button.step_submit {
       line-height: 49px;
       text-transform: uppercase;
       text-align: center;
-      margin: 17px 0px 0 50px; }
+      margin: 0 0px 0 50px; }
   .header .section__bottom {
     display: block;
     width: 100%;

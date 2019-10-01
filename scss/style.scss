@@ -205,7 +205,7 @@ button {
       height: 157px;
       border: 2px solid #f2a62f;
       padding: 13px 0px 12px 12px;
-      margin: 19px 1px 0 0;
+      margin: 18px 3px 0 0;
       align-content: center;
 
     &__bg {
@@ -213,18 +213,19 @@ button {
       height: 128px;
       opacity: 0.88;
       background: url(../images/white__bg.png) no-repeat;
+      padding-top: 14px;
     }
 
-    p {
+    h1 {
       width: 599px;
       height: 71px;
-      color: #000000;
+      color:  $blackText;
       font-family: 'Roboto-Light';
       font-size: 31px;
       line-height: 49px;
       text-transform: uppercase;
       text-align: center;
-      margin: 17px 0px 0 50px;
+      margin: 0 0px 0 50px;
     }
   }
 
@@ -243,8 +244,6 @@ button {
     align-items: center;
     padding: 16px  0  13px  0; 
   }
-
-  
 
     .nav {
       flex-basis: 36%;
@@ -272,10 +271,6 @@ button {
           }
         }
       }
-
-      // &__block:last-child {
-      //   margin: 9px 0 0 0;
-      // }
 
       i {
         display: block;
@@ -330,13 +325,10 @@ button {
       }
     }
   }
- 
-
 }
 
 .component {
   flex-grow: 1;
-
 
   section {
     flex-flow: row nowrap;
