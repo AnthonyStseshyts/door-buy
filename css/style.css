@@ -44,6 +44,10 @@ a {
 i {
   display: inline-block; }
 
+.logo {
+  width: 101px;
+  height: 48px; }
+
 section {
   max-width: 1170px;
   margin: 0 auto;
@@ -952,5 +956,99 @@ footer {
         transform: rotate(0deg);
         margin: 6px 0 0 31px;
         position: absolute; }
+      footer .mid__footer p.to__catalog:hover {
+        opacity: 0.8; }
+  footer .btm__footer {
+    width: 100%;
+    height: 125px;
+    background-color: #f8f8f8; }
+    footer .btm__footer section {
+      padding: 16px 5px 12px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%; }
+    footer .btm__footer #toTop {
+      display: block;
+      width: 48px;
+      height: 48px;
+      position: fixed;
+      bottom: 36px;
+      left: 136px;
+      border: none;
+      outline: none;
+      cursor: pointer; }
+    footer .btm__footer .top_arw {
+      width: 100%;
+      height: 100%;
+      background: url(../images/icons/arrow_up.png) no-repeat; }
+    footer .btm__footer .logo_btm {
+      width: 262px;
+      height: 97px; }
+      footer .btm__footer .logo_btm .logo {
+        margin-left: 76px; }
+      footer .btm__footer .logo_btm .ft_txt {
+        width: 100%;
+        height: 32px;
+        color: #000000;
+        font-family: 'Roboto-Light';
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center; }
+    footer .btm__footer .info_foot {
+      width: 345px;
+      height: 48px; }
+      footer .btm__footer .info_foot .ft_txt {
+        height: 100%;
+        text-align: center; }
+    footer .btm__footer .contacts_foot {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 319px;
+      height: 71px;
+      flex-basis: 100%;
+      color: #009900;
+      font-family: 'Roboto-Regular';
+      font-size: 21px;
+      font-weight: 400;
+      margin: -20px 0 0 0; }
+      footer .btm__footer .contacts_foot .codes_foot {
+        width: 92px;
+        font-family: 'Roboto-Regular';
+        font-size: 21px;
+        font-weight: 300; }
+      footer .btm__footer .contacts_foot .phone_foot {
+        font-family: "Roboto-Regular";
+        font-size: 50px;
+        font-weight: 400;
+        width: 227px;
+        margin: -9px 0 0 0; }
+      footer .btm__footer .contacts_foot .schedule_foot {
+        width: 100%;
+        height: 17px;
+        font-family: 'Roboto-Regular';
+        color: #000000;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0px 0px 0 0; }
+        footer .btm__footer .contacts_foot .schedule_foot p {
+          font-size: 16px; }
+        footer .btm__footer .contacts_foot .schedule_foot mark {
+          display: inline-block;
+          color: #000000;
+          font-family: 'Roboto-Regular';
+          line-height: 21px;
+          background: none;
+          text-transform: lowercase;
+          margin-right: 1px; }
+        footer .btm__footer .contacts_foot .schedule_foot span {
+          display: inline-block;
+          width: 13px;
+          font-size: 11px;
+          position: relative;
+          margin: 0 0 0 0;
+          top: -7px; }
 
 /*# sourceMappingURL=style.css.map */
