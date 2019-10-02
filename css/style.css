@@ -585,32 +585,52 @@ button.step_submit {
           width: 100%;
           height: 100%;
           background: url(../images/door/Layer_23.png) 55% 14% no-repeat;
-          padding: 313px 0px 0px 20px !important; }
+          padding: 273px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=layer24] {
           width: 100%;
           height: 100%;
           background: url(../images/door/Layer_24.png) 55% 14% no-repeat;
-          padding: 313px 0px 0px 20px !important; }
+          padding: 272px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=layer25] {
-          background: url(../images/door/Layer_25.png) no-repeat;
-          background-position: center 10px; }
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_25.png) 55% 14% no-repeat;
+          padding: 272px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=layer26] {
-          background: url(../images/door/Layer_26.png) no-repeat;
-          background-position: center 10px; }
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_26.png) 55% 14% no-repeat;
+          padding: 272px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=layer27] {
-          background: url(../images/door/Layer_27.png) no-repeat;
-          background-position: center 10px; }
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_27.png) 55% 14% no-repeat;
+          padding: 272px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=layer28] {
-          background: url(../images/door/Layer_28.png) no-repeat;
-          background-position: center 10px; }
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_28.png) 55% 14% no-repeat;
+          padding: 272px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=layer29] {
-          background: url(../images/door/Layer_29.png) no-repeat;
-          background-position: center 10px; }
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_29.png) 55% 14% no-repeat;
+          padding: 272px 0px 0px 20px !important; }
         .component .content .step__2 fieldset .container[for=question] {
-          background: url(../images/icons/question_mark.png) no-repeat;
-          background-position: center 33px; }
-    .component .content .step__2 .button__next {
-      margin: 0; }
+          width: 100%;
+          height: 100%;
+          background: url(../images/icons/question_mark.png) 55% 14% no-repeat;
+          padding: 192px 0px 0px 5px !important; }
+    .component .content .step__2 .button__box {
+      max-width: 757px;
+      width: 100%;
+      height: 58px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 51px;
+      margin-top: 8px; }
     .component .content .step_3 {
       min-height: 427px;
       background: url(../images/icons/cashpig.png) 28% 51px no-repeat; }
