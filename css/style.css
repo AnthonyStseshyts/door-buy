@@ -457,25 +457,75 @@ button.step_submit {
         margin: 0 30px 37px 34px; }
       .component .content .step__1 fieldset:hover {
         box-shadow: 0 0 32px rgba(0, 0, 0, 0.12); }
-    .component .content .step__1 input {
-      margin: 240px 0px 0; }
-    .component .content .step__1 label {
-      padding: 260px 10px 0; }
-      .component .content .step__1 label[for=none] {
-        background: url(../images/door/none_glass.png) no-repeat;
-        background-position: center 10px; }
-      .component .content .step__1 label[for=with] {
-        padding: 260px 87px 0;
-        background: url(../images/door/with_glass.png) no-repeat;
-        background-position: center 10px; }
-      .component .content .step__1 label[for=with] {
-        padding: 260px 87px 0;
-        background: url(../images/door/with_glass.png) no-repeat;
-        background-position: center 10px; }
-      .component .content .step__1 label[for=help1] {
-        background: url(../images/icons/i_help1.png) no-repeat;
-        background-position: center 10px; }
+    .component .content .step__1 .container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: #383838;
+      font-family: 'Roboto-Light';
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 18px; }
+      .component .content .step__1 .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; }
+      .component .content .step__1 .container .checkmark {
+        position: absolute;
+        top: 276px;
+        left: 163px;
+        width: 31px;
+        height: 31px;
+        border: 3px solid rgba(128, 128, 128, 0.67); }
+        .component .content .step__1 .container .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none; }
+        .component .content .step__1 .container .checkmark:after {
+          left: 2px;
+          top: 3px;
+          width: 20px;
+          height: 16px;
+          background: url(../images/icons/check_mark.png) 1px 1px no-repeat; }
+      .component .content .step__1 .container input:checked ~ .checkmark:after {
+        display: block; }
+      .component .content .step__1 .container[for=none] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/door/none_glass.png) 55% 14% no-repeat;
+        padding: 313px 0px 0px 20px !important; }
+        .component .content .step__1 .container[for=none] .checkmark {
+          left: 171px; }
+      .component .content .step__1 .container[for=with] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/door/with_glass.png) 51% 14% no-repeat;
+        padding: 313px 0px 0px 20px !important; }
+      .component .content .step__1 .container[for=help1] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/icons/i_help1.png) 47% 25% no-repeat;
+        padding: 313px 0px 0px 20px !important; }
+    .component .content .step__1 .button__box {
+      max-width: 788px;
+      width: 100%;
+      height: 58px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 80px; }
     .component .content .step__1 .button__next {
+      margin: 88px 5px;
       padding: 12px 40px;
       margin: 0 45px 0 0;
       border-radius: 0; }
@@ -490,32 +540,73 @@ button.step_submit {
         margin-right: 0; }
       .component .content .step__2 fieldset:hover {
         box-shadow: 0 0 32px rgba(0, 0, 0, 0.12); }
-      .component .content .step__2 fieldset input {
-        margin: 210px 0 0; }
-      .component .content .step__2 fieldset label {
-        padding: 246px 0px 0px; }
-        .component .content .step__2 fieldset label[for=layer23] {
-          background: url(../images/door/Layer_23.png) no-repeat;
-          background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=layer24] {
-          background: url(../images/door/Layer_24.png) no-repeat;
-          background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=layer25] {
+      .component .content .step__2 fieldset .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        color: #383838;
+        font-family: 'Roboto-Light';
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 18px; }
+        .component .content .step__2 fieldset .container input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0; }
+        .component .content .step__2 fieldset .container .checkmark {
+          position: absolute;
+          top: 222px;
+          left: 119px;
+          width: 31px;
+          height: 31px;
+          border: 3px solid rgba(128, 128, 128, 0.67); }
+          .component .content .step__2 fieldset .container .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none; }
+          .component .content .step__2 fieldset .container .checkmark:after {
+            left: 2px;
+            top: 3px;
+            width: 20px;
+            height: 16px;
+            background: url(../images/icons/check_mark.png) 1px 1px no-repeat; }
+        .component .content .step__2 fieldset .container input:checked ~ .checkmark:after {
+          display: block; }
+        .component .content .step__2 fieldset .container[for=layer23] {
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_23.png) 55% 14% no-repeat;
+          padding: 313px 0px 0px 20px !important; }
+        .component .content .step__2 fieldset .container[for=layer24] {
+          width: 100%;
+          height: 100%;
+          background: url(../images/door/Layer_24.png) 55% 14% no-repeat;
+          padding: 313px 0px 0px 20px !important; }
+        .component .content .step__2 fieldset .container[for=layer25] {
           background: url(../images/door/Layer_25.png) no-repeat;
           background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=layer26] {
+        .component .content .step__2 fieldset .container[for=layer26] {
           background: url(../images/door/Layer_26.png) no-repeat;
           background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=layer27] {
+        .component .content .step__2 fieldset .container[for=layer27] {
           background: url(../images/door/Layer_27.png) no-repeat;
           background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=layer28] {
+        .component .content .step__2 fieldset .container[for=layer28] {
           background: url(../images/door/Layer_28.png) no-repeat;
           background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=layer29] {
+        .component .content .step__2 fieldset .container[for=layer29] {
           background: url(../images/door/Layer_29.png) no-repeat;
           background-position: center 10px; }
-        .component .content .step__2 fieldset label[for=question] {
+        .component .content .step__2 fieldset .container[for=question] {
           background: url(../images/icons/question_mark.png) no-repeat;
           background-position: center 33px; }
     .component .content .step__2 .button__next {
