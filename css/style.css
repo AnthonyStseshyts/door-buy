@@ -759,7 +759,7 @@ button.step_submit {
           font-size: 20px;
           cursor: default; }
       .component .content .step__4 .step_4 .step_submit {
-        margin: 0; }
+        margin: 35px 0 13px; }
       .component .content .step__4 .step_4 .button__prev {
         margin: 30px 5px !important;
         text-align: center;

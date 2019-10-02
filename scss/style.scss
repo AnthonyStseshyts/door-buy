@@ -922,7 +922,6 @@ button {
             line-height: 18px;
       
             input {
-              // margin: 110px 0 0 200px;
               position: absolute;
               opacity: 0;
               cursor: pointer;
@@ -930,7 +929,6 @@ button {
               width: 0;
             }
         
-          
           .checkmark {
               position: absolute;
               top: -5px;
@@ -957,36 +955,7 @@ button {
             input:checked ~ .checkmark:after {
             display: block;
             }
-
-          // text-align: right;
-          // max-width: 60%;
-          // padding: 0 265px 0 0;
-          // min-height: 1px;
-          // margin-bottom: 0px;
-
-          // &:nth-child(2) {
-          //   margin: 0;
-          // }
-
-          // &:nth-child(5) {
-          //   margin: 0;
-          // }
-
-          // &:nth-child(6) {
-          //   max-width: 100%;
-          //   margin: 0 0 0 0;
-          //   right: 0;
-
-          //   input  {
-          //     margin: 0 233px 0 0;
-          //   }
-            
-          //   label {
-          //     padding: 0px 234px  0px 0px;
-          //   }
-
           }
-
       }
         
 
@@ -1105,7 +1074,7 @@ button {
           }
 
           .step_submit {
-            margin: 0;
+            margin: 35px 0 13px;
           }
           
           .button__prev {
