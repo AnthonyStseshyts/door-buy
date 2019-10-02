@@ -270,7 +270,7 @@ button.step_submit {
       font-size: 38px;
       font-weight: 300;
       text-transform: uppercase;
-      margin: 41px 0 0 14px; }
+      margin-top: 41px; }
     .component__top p {
       font-size: 32px;
       line-height: 36px;
@@ -280,7 +280,7 @@ button.step_submit {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    margin-top: 27px; }
+    margin-top: 37px; }
     .component .content .step__box {
       width: 100%;
       min-height: 662px;
@@ -335,51 +335,74 @@ button.step_submit {
       min-height: 231px; }
       .component .content .step__0 fieldset:hover {
         box-shadow: 0 0 32px rgba(0, 0, 0, 0.12); }
-    .component .content input {
-      margin: 110px 0 0 200px; }
-    .component .content label {
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      display: inline-block;
+    .component .content .container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
       cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
       color: #383838;
       font-family: 'Roboto-Light';
       font-size: 24px;
       font-weight: 300;
-      line-height: 25px; }
-      .component .content label[for=ecoshpon] {
-        width: 167px;
-        height: 192px;
-        background: url(../images/door/ecoshpon.png) no-repeat;
-        margin: 18px 0 0px 15px;
-        padding: 87px 113px 0px 209px !important; }
-      .component .content label[for=massiv] {
-        width: 167px;
-        height: 192px;
-        background: url(../images/door/massiv.png) no-repeat;
-        margin: 18px 0 0px 15px;
-        padding: 87px 113px 0px 209px !important; }
-      .component .content label[for=mdf] {
-        width: 167px;
-        height: 192px;
-        background: url(../images/door/mdf.png) no-repeat;
-        margin: 18px 0 0px 15px;
-        padding: 87px 113px 0px 209px !important; }
-      .component .content label[for=shpon] {
-        width: 167px;
-        height: 192px;
-        background: url(../images/door/shpon.png) no-repeat;
-        margin: 18px 0 0px 15px;
-        padding: 87px 113px 0px 209px !important; }
-      .component .content label[for=help0] {
-        width: 145px;
-        height: 171px;
-        background: url(../images/icons/i_help0.png) no-repeat;
-        margin: 18px 0 0px 15px;
-        padding: 71px 113px 0px 209px !important; }
+      line-height: 18px; }
+      .component .content .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0; }
+      .component .content .container .checkmark {
+        position: absolute;
+        top: 100px;
+        left: 201px;
+        width: 31px;
+        height: 31px;
+        border: 3px solid rgba(128, 128, 128, 0.67); }
+        .component .content .container .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none; }
+        .component .content .container .checkmark:after {
+          left: 2px;
+          top: 3px;
+          width: 20px;
+          height: 16px;
+          background: url(../images/icons/check_mark.png) 1px 1px no-repeat; }
+      .component .content .container input:checked ~ .checkmark:after {
+        display: block; }
+      .component .content .container[for=ecoshpon] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/door/ecoshpon.png) 6% 37% no-repeat;
+        margin: -1px 0 0px 0px;
+        padding: 108px 0px 0px 235px !important; }
+      .component .content .container[for=massiv] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/door/massiv.png) 6% 37% no-repeat;
+        margin: -1px 0 0px 0px;
+        padding: 104px 0px 0px 235px !important; }
+      .component .content .container[for=mdf] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/door/mdf.png) 6% 37% no-repeat;
+        padding: 103px 0px 0px 240px !important; }
+      .component .content .container[for=shpon] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/door/shpon.png) 6% 37% no-repeat;
+        padding: 104px 0px 0px 235px !important; }
+      .component .content .container[for=help0] {
+        width: 100%;
+        height: 100%;
+        background: url(../images/icons/i_help0.png) 6% 37% no-repeat;
+        padding: 104px 0px 0px 235px !important; }
     .component .content p.step {
       display: inline-block;
       width: 326px;
@@ -394,7 +417,8 @@ button.step_submit {
       color: #fff;
       border-radius: 4px;
       font-weight: 700;
-      background: #188b30; }
+      background: #188b30;
+      margin: 81px 15px 85px 0px; }
       .component .content p.button__next:after {
         content: "";
         background: url(../images/icons/arrows_next.png) no-repeat;
