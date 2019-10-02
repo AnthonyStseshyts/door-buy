@@ -631,45 +631,82 @@ button.step_submit {
       justify-content: space-between;
       margin-left: 51px;
       margin-top: 8px; }
-    .component .content .step_3 {
-      min-height: 427px;
-      background: url(../images/icons/cashpig.png) 28% 51px no-repeat; }
-      .component .content .step_3 fieldset {
-        border: 0;
-        text-align: right;
-        max-width: 60%;
-        padding: 0 265px 0 0;
-        min-height: 1px;
-        margin-bottom: 0px; }
-        .component .content .step_3 fieldset:nth-child(2) {
-          margin: 0; }
-        .component .content .step_3 fieldset:nth-child(5) {
-          margin: 0; }
-        .component .content .step_3 fieldset:nth-child(6) {
-          max-width: 100%;
-          margin: 0 0 0 0;
-          right: 0; }
-          .component .content .step_3 fieldset:nth-child(6) input {
-            margin: 0 233px 0 0; }
-          .component .content .step_3 fieldset:nth-child(6) label {
-            padding: 0px 234px  0px 0px; }
-        .component .content .step_3 fieldset:hover {
+    .component .content .step__3 {
+      width: 100%;
+      height: 453px;
+      background: url(../images/icons/cashpig.png) 28% 24% no-repeat;
+      padding: 0 195px 0 232px; }
+      .component .content .step__3 .step_3 {
+        width: 765px;
+        height: 374px; }
+        .component .content .step__3 .step_3 fieldset {
+          min-width: 208px;
+          height: 31px;
+          border: none;
+          position: relative;
+          margin-bottom: 32px;
+          text-align: center;
+          margin: 0 29px 29px 0;
+          left: 164px;
+          top: 5px; }
+          .component .content .step__3 .step_3 fieldset .container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            color: #383838;
+            font-family: 'Roboto-Light';
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 18px; }
+            .component .content .step__3 .step_3 fieldset .container input {
+              position: absolute;
+              opacity: 0;
+              cursor: pointer;
+              height: 0;
+              width: 0; }
+            .component .content .step__3 .step_3 fieldset .container .checkmark {
+              position: absolute;
+              top: -5px;
+              left: 70px;
+              width: 31px;
+              height: 31px;
+              border: 3px solid rgba(128, 128, 128, 0.67); }
+              .component .content .step__3 .step_3 fieldset .container .checkmark:after {
+                content: "";
+                position: absolute;
+                display: none; }
+              .component .content .step__3 .step_3 fieldset .container .checkmark:after {
+                left: 2px;
+                top: 3px;
+                width: 20px;
+                height: 16px;
+                background: url(../images/icons/check_mark.png) 1px 1px no-repeat; }
+            .component .content .step__3 .step_3 fieldset .container input:checked ~ .checkmark:after {
+              display: block; }
+        .component .content .step__3 .step_3:hover {
           box-shadow: none; }
-        .component .content .step_3 fieldset input {
-          margin: 0; }
-        .component .content .step_3 fieldset label {
-          position: absolute;
-          right: 0;
-          padding: 0px 0px 0px 0px;
-          cursor: default; }
-          .component .content .step_3 fieldset label:nth-child(6) {
-            padding: 0 0 0 0; }
-      .component .content .step_3 .button__next {
+      .component .content .step__3 .button__box {
+        max-width: 719px;
+        width: 100%;
+        height: 58px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 13px; }
+      .component .content .step__3 .button__next {
         margin: 0px 0 0 0;
         bottom: 0;
         border-radius: 0%; }
-      .component .content .step_3 .button__prev {
-        margin: 0px 0 0 0;
+      .component .content .step__3 .button__prev {
+        margin: 0px 2px 0 -24px;
         bottom: 0; }
     .component .content .step__4 {
       height: 689px; }
